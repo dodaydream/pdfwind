@@ -1,6 +1,4 @@
 .DS_Store
 yarn-error.log
-tmp/
-dist/
 vendor/
 node_modules/
