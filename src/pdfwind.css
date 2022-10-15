@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Noto Sans CJK HK';
+    src: url('../extfonts/NotoSansCJKhk-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans CJK HK';
+    src: url('../extfonts/NotoSansCJKhk-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Noto Serif CJK HK';
+    src: url('../extfonts/NotoSerifCJKhk-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Noto Serif CJK HK';
+    src: url('../extfonts/NotoSerifCJKhk-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Noto Color Emoji';
+    src: url('../extfonts/NotoColorEmoji-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Free HK Kai';
+    src: url('../extfonts/Free-HK-Kai_4700-v1.01.ttf');
+    font-style: italic;
+    font-weight: normal;
+}
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.kai {
+    font-family: 'Free HK Kai';
+    font-style: italic;
+}
+
+.font-bold {
+    font-weight: bold !important;
+}
+
+
+@layer utilities {
+    .page-break {
+        page-break-after: always;
+    }
+
+    .page-break-after {
+        page-break-after: always;
+    }
+
+    .page-break-before {
+        page-break-before: always;
+    }
+}

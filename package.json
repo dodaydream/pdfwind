@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dist": "cross-env NODE_ENV=production postcss src/pdfwind.css -o dist/pdfwind.min.css",
+    "watch": "postcss src/pdfwind.css -o dist/pdfwind.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.7",
+    "crossenv": "^0.0.2-security",
+    "cssnano": "^5.1.13",
+    "parse-css-dimension": "^1.1.0",
+    "postcss": "^8.4.18",
+    "postcss-css-variables": "^0.18.0",
+    "postcss-import": "^15.0.0",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "postcss-cli": "^10.0.0"
+  }
+}

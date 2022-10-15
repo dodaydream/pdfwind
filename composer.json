@@ -1,0 +1,6 @@
+{
+    "require": {
+        "dompdf/dompdf": "^2.0",
+        "rikanishu/php-multi-process": "^0.2.4"
+    }
+}
